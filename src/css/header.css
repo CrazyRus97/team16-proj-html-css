@@ -337,6 +337,7 @@ body {
 .current-mobile::after {
   content: '';
   position: absolute;
+  display: block;
   top: 158px;
   height: 2px;
   background-color: var(--accent-color);
