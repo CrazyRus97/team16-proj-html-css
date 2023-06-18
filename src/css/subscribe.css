@@ -279,7 +279,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
     position: absolute;
-    right: 0;
+    right: 1;
   
   }
   
