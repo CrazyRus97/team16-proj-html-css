@@ -14,8 +14,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/team16-proj-html-css/assets/index-297b454a.js"></script>
-    <link rel="stylesheet" href="/team16-proj-html-css/assets/index-17924530.css">
+    <script type="module" crossorigin src="/team16-proj-html-css/assets/index-6d5867be.js"></script>
+    <link rel="stylesheet" href="/team16-proj-html-css/assets/index-69a5c540.css">
   </head>
   <body>
     <!-- Ельвіра Дімова -->
@@ -145,8 +145,8 @@
     <div class="wrapper-hero">
         
             <h1 class="visually-hidden">Make your own real chocolate story!</h1>
-            <h2 class="title-hero">Treat yourself or a loved one
-            to our finest ingredients for a moment of pure delight!</h2>
+            <h2 class="title-hero"> <span class="span-hero-text-mob">Treat yourself or a loved one</span>
+            to <span class="span-text-hero-tabl"> our finest ingredients for a moment of pure delight!</span></h2>
             <div class="hero-button-container">
             <ul class="list-hero-button">
                 <li><button type="button" class="button-hero-modal "  data-modal-open="buy-modal">Buy now</button></li>
@@ -169,36 +169,119 @@
     <div class="vrapper-modal-hero">
         <button class="close-modal-hero  " data-modal-close>
             <svg class="svg-close-hero" width="24" height="24">
-                <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-x-mark"></use>
+                <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-x-mark"></use>
             </svg>
         </button>
         <h2 class="title-hero-modal"><span class="modal-components-title">BUY</span> NOW</h2>
         <ul class="list-hero-chocolate">
             <li class="hero-chocolate-container">
-                <img 
-                class="icon-chocolate-modal"
-                 src="../img/hero/modal-hero/black-chocolate.png"
-                 width="84"
-                 height="69"
-                 alt="Black chocolate">
+                <picture>
+
+                <source srcset="
+                ../img/hero/modal-hero-tablet/black-chocolate.webp 1x,
+                 ../img/hero/modal-hero-tablet/black-chocolate@2x(1).webp 2x
+                " media="(min-width: 768px)" />
+
+                <source srcset="
+                ../img/hero/modal-hero-tablet/black-chocolate.png  1x,                  
+                ../img/hero/modal-hero-tablet/black-chocolate@2x.png 2x              
+                " media="(min-width: 768px)" />
+                <!-- max-width: 767.9px -->
+
+                <source srcset="
+                ../img/hero/modal-hero/black-chocolate.webp 1x,
+                ../img/hero/modal-hero/black-chocolate@2x.webp 2x                            
+                                                                                
+                " media="(max-width: 767.9px)" />
+
+                <source srcset="
+                ../img/hero/modal-hero/black-chocolate.png 1x,
+                ../img/hero/modal-hero/black-chocolate@2x.png 2x
+                
+                " media="(max-width: 767.9px)" />
+
+               
+                    
+                <img class="icon-chocolate-modal"
+                src="../img/hero/modal-hero/black-chocolate.png" 
+                width="84" 
+                height="69"
+                alt="Black chocolate">
+                </picture>
+                
                 <button class="button-modal-chocolate">100 g</button>
             </li>
             <li class="hero-chocolate-container">
-                <img 
-                class="icon-chocolate-modal"
+                <picture>
+                
+                    <source srcset="
+                    ../img/hero/modal-hero-tablet/milk-black.webp 1x,                
+                    ../img/hero/modal-hero-tablet/milk-black@2x(1).webp 2x             
+                    " media="(min-width: 768px)" />
+                    
+                    <source srcset="
+                    ../img/hero/modal-hero-tablet/milk-black.png 1x,                                    
+                    ../img/hero/modal-hero-tablet/milk-black@2x.png 2x                                 
+                    " media="(min-width: 768px)" />
+                    <!-- max-width: 767.9px -->
+
+                    <source srcset="
+                   ../img/hero/modal-hero/milk-black.webp 1x,
+                   ../img/hero/modal-hero/milk-black@2x.webp 2x
+                                                                     
+                                                                                                        
+                    " media="(max-width: 767.9px)" />
+
+                    <source srcset="
+                    ../img/hero/modal-hero/milk-black.png 1x,
+                    ../img/hero/modal-hero/milk-black@2x.png 2x
+                                   
+                    " media="(max-width: 767.9px)" />
+                    
+                   
+                
+                <img class="icon-chocolate-modal" 
                 src="../img/hero/modal-hero/milk-black.png" 
                 width="84" 
-                height="69"  
+                height="69"
                 alt="Dark milk chocolate with nuts">
+                </picture>
+               
                 <button class="button-modal-chocolate">200 g</button>
             </li>
             <li class="hero-chocolate-container">
-                <img 
-                class="icon-chocolate-modal"
+                <picture>
+                
+                <source srcset="
+                ../img/hero/modal-hero-tablet/bar-of-chocolate.webp 1x,                                    
+                ../img/hero/modal-hero-tablet/bar-of-chocolate@2x(1).webp 2x                                 
+                " media="(min-width: 768px)" />
+
+                <source srcset="
+                ../img/hero/modal-hero-tablet/bar-of-chocolate.png 1x,                                                    
+                ../img/hero/modal-hero-tablet/black-chocolate@2x.png 2x                                                 
+                " media="(min-width: 768px)" />
+                <!-- max-width: 767.9px -->
+
+                <source srcset="
+                ../img/hero/modal-hero/bar-of-chocolate.webp 1x,
+                ../img/hero/modal-hero/bar-of-chocolate@2x.webp 2x           
+                                                                                
+                " media="(max-width: 767.9px)" />
+
+                <source srcset="
+                ../img/hero/modal-hero/bar-of-chocolate.png 1x,
+                ../img/hero/modal-hero/bar-of-chocolate@2x.png 2x             
+                                                
+                " media="(max-width: 767.9px)" />
+
+                <img class="icon-chocolate-modal" 
                 src="../img/hero/modal-hero/bar-of-chocolate.png" 
                 width="84" 
-                height="69"  
+                height="69"
                 alt="Bar of chocolate">
+                </picture>
+                
                 <button class="button-modal-chocolate">300 g</button>
             </li>
         </ul>
@@ -253,7 +336,7 @@
             >
             <span class="container-flag-number">
             <svg class="flag-svg" width="32" height="24">
-                <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-flag-ua"></use>
+                <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-flag-ua"></use>
             </svg>
             <span class="text-number-input">+380</span>
             </span>
@@ -272,7 +355,7 @@
             placeholder="Enter card"
             >
             <svg class="mastercard-svg" width="32" height="21">
-                <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-mastercard"></use>
+                <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-mastercard"></use>
             </svg>
             </span>
             </label>
@@ -304,7 +387,7 @@
       <li class="advantages-menu-item">
         <div class="advantages-icon-container">
           <svg class="advantages-icon" width="32" height="32">
-            <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-chocolate"></use>
+            <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-chocolate"></use>
           </svg>
         </div>
 
@@ -319,7 +402,7 @@
       <li class="advantages-menu-item">
         <div class="advantages-icon-container">
           <svg class="advantages-icon" width="32" height="32">
-            <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-coin"></use>
+            <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-coin"></use>
           </svg>
         </div>
 
@@ -335,7 +418,7 @@
       <li class="advantages-menu-item">
         <div class="advantages-icon-container">
           <svg class="advantages-icon" width="32" height="32">
-            <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-spoon"></use>
+            <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-spoon"></use>
           </svg>
         </div>
         <h3 class="advantages-menu-title fon">Own production</h3>
@@ -1101,7 +1184,7 @@
         width="24"
         height="24"
       >
-        <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-x-mark"></use>
+        <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-x-mark"></use>
       </svg>
     </button>
     <p class="review-form-title">
@@ -1151,7 +1234,7 @@
               width="24"
               height="18"
             >
-              <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-flag-ua"></use>
+              <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-flag-ua"></use>
             </svg>
             <p class="country-code">+380</p>
           </div>
@@ -1201,7 +1284,7 @@
         width="28"
         height="28"
       >
-        <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-x-mark"></use>
+        <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-x-mark"></use>
       </svg>
     </button>
 
@@ -1268,7 +1351,7 @@
                 width="22"
                 height="22"
               >
-                <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-instagram"></use>
+                <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
@@ -1280,7 +1363,7 @@
                 width="22"
                 height="22"
               >
-                <use href="/team16-proj-html-css/assets/icons-5dbe3449.svg#icon-twitter"></use>
+                <use href="/team16-proj-html-css/assets/icons-79366409.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
